@@ -56,4 +56,5 @@ class SeleniumTest {
         WebElement nameButton = driver.findElement(By.id("playmebtn"));
         nameButton.click();
     }
+
 }
