@@ -43,7 +43,7 @@ class SeleniumTest {
         WebDriver driver;
         driver = new ChromeDriver();
         driver.get(testURL);
-        Assertions.assertEquals(driver.getTitle(), "Homepage");
+        Assertions.assertEquals(driver.getTitle(), "Document");
         System.out.println(driver.getTitle());
     }
     @Test
